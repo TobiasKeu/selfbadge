@@ -109,7 +109,7 @@ const settings = definePluginSettings({
     hiddenBadgeIds: {
         type: OptionType.STRING,
         description: 'Comma-separated badge IDs to hide from your own profile (e.g. "hypesquad_bravery,active_developer")',
-        default: "premium_tenure_12_month_v2,hypesquad_house_1,guild_booster_lvl8,legacy_username,quest_completed,orb_profile_badge",
+        default: "",
     },
 });
 
