@@ -148,7 +148,7 @@ function getAllFakeBadges(): FakeBadge[] {
 export default definePlugin({
     name: "SelfBadges",
     description: "Shows custom badges (from a full catalog, custom JSON entries, or both) and hides real ones on your own profile. Visible only in your own client.",
-    authors: [{ name: "you", id: 0n }],
+    authors: [{ name: "TobiasKeu", id: 894574168232828971n }],
     settings,
 
     addSelfBadges(viewedUserId: string | undefined, existingBadges: any[]) {
