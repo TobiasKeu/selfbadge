@@ -1,6 +1,6 @@
 # SelfBadges
 
-Updated on 16.08.2026
+Updated on 19.08.2026
 
 A [Vencord](https://github.com/Vendicated/Vencord) userplugin that lets you display Custom and/or Official Badges on your own Discord profile — **visible only in your own client.** Everything is [...]
 
