@@ -33,6 +33,8 @@ This plugin cannot be added through the normal Vencord installer. It needs to be
    ```
    (so the final path is `Vencord/src/userplugins/selfBadges/index.tsx`)
 
+      ![File Location of index.tsx](./File-Location)
+
 4. **Build and inject**:
    ```bash
    pnpm build
@@ -67,6 +69,8 @@ Open the plugin's settings (gear icon next to SelfBadges in the Plugins list):
 - This is **purely cosmetic and client-side**. It does not modify your actual Discord account, and nobody viewing your profile from their own client (even with Vencord) will see any of this.
 - Client modifications like Vencord are not officially supported by Discord and technically fall outside their Terms of Service, though enforcement has historically been lax. Use at your own discretion.
 - Because this patches Discord's minified client code, **Discord updates may occasionally break the patch** (variable names inside the bundle can shift between builds). If badges stop appearing after a Discord update, the patch target likely needs to be re-located — see [Vencord's plugin development docs](https://github.com/Vendicated/Vencord/blob/main/docs/2_PLUGINS.md) for how to search webpack modules and update the patch.
+
+  ![Badge Preview](./Badge-Preveiw)
 
 ## Credits
 
