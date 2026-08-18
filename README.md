@@ -2,11 +2,11 @@
 
 Updated on 16.08.2026
 
-A [Vencord](https://github.com/Vendicated/Vencord) userplugin that lets you display Custom and/or Official Badges on your own Discord profile — **visible only in your own client.** Everything is run Clientside. Your real account is completely unaffected.
+A [Vencord](https://github.com/Vendicated/Vencord) userplugin that lets you display Custom and/or Official Badges on your own Discord profile — **visible only in your own client.** Everything is [...]
 
 ## Features
 
-- **Full badge catalog** — every badge from [PandaDevOfficial/badges-discord](https://github.com/PandaDevOfficial/badges-discord), each as its own toggle: Staff, Partner, all 3 HypeSquad houses, Early Supporter, all 8 Nitro tenure tiers (Bronze → Opal), all 9 Boost levels, developer badges, server badges, and special/system badges.
+- **Full badge catalog** — every badge from [PandaDevOfficial/badges-discord](https://github.com/PandaDevOfficial/badges-discord), each as its own toggle: Staff, Partner, all 3 HypeSquad houses, [...]
 - **Custom ordering** — control the order badges are displayed in
 - **Custom badges** — add any badge you want via a simple JSON list (your own image URL + description).
 - **Hide real badges** — selectively hide badges you actually have from your own view.
@@ -67,10 +67,10 @@ Open the plugin's settings (gear icon next to SelfBadges in the Plugins list):
 ## Important notes
 
 - This is **purely cosmetic and client-side**. It does not modify your actual Discord account, and nobody viewing your profile from their own client (even with Vencord) will see any of this.
-- Client modifications like Vencord are not officially supported by Discord and technically fall outside their Terms of Service, though enforcement has historically been lax. Use at your own discretion.
-- Because this patches Discord's minified client code, **Discord updates may occasionally break the patch** (variable names inside the bundle can shift between builds). If badges stop appearing after a Discord update, the patch target likely needs to be re-located — see [Vencord's plugin development docs](https://github.com/Vendicated/Vencord/blob/main/docs/2_PLUGINS.md) for how to search webpack modules and update the patch.
+- Client modifications like Vencord are not officially supported by Discord and technically fall outside their Terms of Service, though enforcement has historically been lax. Use at your own discr[...]
+- Because this patches Discord's minified client code, **Discord updates may occasionally break the patch** (variable names inside the bundle can shift between builds). If badges stop appearing af[...]
 
-  ![Badge Preview](./Badge-Preveiw)
+  ![Badge Preview](./Badge-Preview)
 
 ## Credits
 
